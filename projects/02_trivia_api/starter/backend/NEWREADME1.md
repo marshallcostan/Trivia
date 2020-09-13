@@ -52,7 +52,7 @@ restart if any changes are made to the code.
 
 The default URL the app runs on is: http://127.0.0.1:5000/
 
-##Frontend
+## Frontend
 
 Assuming the installation of Node, from the `frontend` folder run the following commands to install dependencies and start the client:
 
@@ -110,7 +110,7 @@ This API will return these error types when requests fail:
 
 ## Endpoints
 
-###GET /categories
+### GET /categories
 
    General:
         
@@ -134,7 +134,7 @@ This API will return these error types when requests fail:
 ```
 
 
-###GET /questions
+### GET /questions
 
    General:
       
@@ -233,7 +233,7 @@ This API will return these error types when requests fail:
 }
 ```
 
-###DELETE /questions/{question_id}
+### DELETE /questions/{question_id}
    General:
     
    - Deletes a question with the ID supplied to the endpoint.
@@ -252,7 +252,7 @@ This API will return these error types when requests fail:
 }
 ```    
 
-###POST /questions
+### POST /questions
 
    General:
     
@@ -358,7 +358,7 @@ $ curl http://127.0.0.1:5000/questions?page=2
   "totalQuestions": 20
 ```
 
-###POST /searchQuestions
+### POST /searchQuestions
 
 General:
     
@@ -385,7 +385,7 @@ General:
 }
 ```
 
-###GET /categories/category_id/questions
+### GET /categories/category_id/questions
 
 General
 
@@ -441,7 +441,7 @@ General
 }
 ```
 
-###POST /quizzes
+### POST /quizzes
 General:
         
    - Returns a success value, a random question from all the possible questions or from the chosen category if one was supplied, a list of the previous questions if any. 
